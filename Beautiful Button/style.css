@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background: #0072f5;
+    color: #ffffff;
+    padding: 0.8rem 2rem;
+    border-radius: 3rem;
+    font-size: 1.3rem;
+    box-shadow: 0 4px 14px 0 #5ea2ef;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    transform: translateY(-5px);
+}

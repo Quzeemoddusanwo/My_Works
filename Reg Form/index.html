@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="container">
+       <div class="heading_text">
+           <h1>Registration Form</h1>
+       </div>
+       <div class="panel-body">
+           <form action="action_page.html" name="myForm" method="post">
+               <div class="form-group">
+                   <label for="firstName">First Name</label><br>
+                   <input type="text" class="form-control" id="firstName" required/><br><br>
+               </div>
+               <div class="form-group">
+                <label for="lastName">Last Name</label><br>
+                <input type="text" class="form-control" id="lastName" required/><br><br>
+               </div>
+              <div class="form-group">
+                <label for="gender">Gender</label><br>
+                <div>
+                    <label for="male" class="radio-inline"><input type="radio" name="gender" required>Male</label>
+                    <label for="female" class="radio-inline"><input type="radio" name="gender" required>Female</label>
+                    <label for="others" class="radio-inline"><input type="radio" name="gender"required>Others</label><br><br>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" class="form-control" id="email" required/><br><br>
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label><br>
+                <input type="password" class="form-control" id="password" required/><br><br>
+              </div>
+              <div class="form-group">
+                <label for="number">Phone Number</label><br>
+                <input type="number" class="form-control" id="number" required/><br><br>
+               </div>
+               <input type="submit" name="submit" value="Submit">
+           </form>
+       </div>
+       <div class="footer">
+           <br>
+           <small>&copy; Technical Quzeem <br></small> 
+       </div>
+   </div> 
+</body>
+</html>

@@ -1,0 +1,74 @@
+@import url('file:///C:/Users/JIC%20Computer/Desktop/New%20folder/fontawesome-free-6.1.1-web/svgs/solid/check.svg');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #373737;
+}
+form{
+    position: relative;
+    width: 300px;
+}
+h3{
+    font-size: 20px;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+}
+form label{
+    position: relative;
+    display: block;
+}
+form input{
+    margin: 10px 0;
+    width: 100%;
+    background: #292929;
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+.emailText,
+.passText{
+    font-weight: 300;
+    font-style: italic;
+    padding: 5px;
+}
+label.valid .emailText,
+label.valid .passText{
+    color: #00ff00;
+}
+label.invalid .emailText,
+label.invalid .passText{
+    color: #f00;
+}
+label.valid::before,
+label.invalid::before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 60px;
+    top: 18px;
+    right: 5px;
+    z-index: 100;
+}
+label.valid::before{
+    background: url(check.svg) no-repeat center /cover;
+    background-color: #00ff00;
+    background-size: 15px;
+}
+label.invalid::before{
+    background: url(exclamation.svg) no-repeat center /cover;
+    background-color: #f00;
+    background-size: 5px;
+}

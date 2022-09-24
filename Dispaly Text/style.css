@@ -1,0 +1,51 @@
+*{
+    margin: 10%;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background: rgb(240, 10, 190);
+    border-radius: 50px;
+}
+.profile-card{
+    margin-left: 30px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: -5px -5px 25px rgba(0, 0, 0, 0.70s);
+    animation: rotate 1.5s both;
+}
+.card{
+    height: 100%;
+    padding: 30px 40px;
+    animation:  textanimate 1.5s both;
+    color: #000;
+    font-size: 1rem;
+}
+@keyframes rotate {
+    0%{
+        transform-origin: left bottom;
+        transform: rotate3d(0,0,1,45deg);
+        opacity: 0;
+    }
+    100%{
+        transform-origin: left bottom;
+        transform: none;
+        opacity: 1;
+    }
+}
+@keyframes textanimate {
+    0%{
+        transform: translateY(200px);
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

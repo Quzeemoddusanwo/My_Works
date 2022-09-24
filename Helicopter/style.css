@@ -1,0 +1,98 @@
+.helicopter{
+    position: relative;
+    margin: auto;
+    height: 300px;
+    width: 400px;
+    filter: drop-shadow(0 0 1px #000000);
+}
+.body{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: radial-gradient(circle,#000000,#4b4e2c 60%);
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(0 33%, 3% 27%, 9% 30%, 13% 41%, 100% 41%,
+    100% 81%, 72% 81%, 50% 56%, 13% 53%, 5% 64%, 0 62%,);
+}
+.front{
+    background: radial-gradient(circle, #000000,#4b4e2c 60%);
+    width: 500px;
+    height: 80px;
+    position: absolute;
+    left: 49%;
+    bottom: 12.7%;
+    border-radius: 0 60% 50% 0;
+}
+.top{
+    position: absolute;
+    left: 38%;
+    bottom: 38%;
+    background: radial-gradient(circle, #000,#4b4e2c);
+    width: 80px;
+    border-radius: 50% 50% 0 0;
+}
+.roter{
+    position: absolute;
+    left: 12%;
+    bottom: 35%;
+    width: 300px;
+    height: 50px;
+    transform-style: preserve-3d;
+    animation: anim 1s infinite linear;
+}
+.r1,
+.r2{
+    position: absolute;
+    width: 300px;
+    height: 8px;
+    border-radius: 30%;
+    background: radial-gradient(circle,#000000,#4b4e2c);
+}
+.r2{
+    transform: rotateY(96deg);
+}
+.r1::after,
+.r2::after{
+    content: '';
+    position: absolute;
+    left: 50.2%;
+    top: 8%;
+    background-color: #000000;
+    width: 4px;
+    height: 35px;
+}
+@keyframes anim {
+    0%{
+        transform: rotateY(0deg) rotateX(3deg);
+    }
+    100%{
+        transform: rotateY(360deg) rotateX(3deg);
+    }
+}
+.ls{
+    position: absolute;
+    left: 30%;
+    bottom: 6%;
+    background-color: #000000;
+    width: 150px;
+    height: 24px;
+    clip-path: polygon(
+        0 70%,
+        15% 100%,
+        90% 100%,
+        100% 70%,
+        90% 60%,
+        99% 85%,
+        62% 80%,
+        62% 0,
+        60% 0,
+        60% 80%,
+        34% 80%,
+        34% 0,
+        32% 0,
+        32% 80%,
+        15% 85%,
+        5% 65%,
+    );
+}

@@ -1,0 +1,21 @@
+
+body{
+    background: rgb(231, 224, 224);
+}
+h1{
+    margin-left: 40%;
+    font-size: 45px;
+}
+h2{
+   font-size: 50px;
+   margin-top: -10px;
+   margin-left: 48%;
+}
+button{
+    margin-left: 42%;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}

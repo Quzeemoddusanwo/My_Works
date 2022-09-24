@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.dot{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: #001300;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+    animation: animBackground 3s linear infinite;
+}
+@keyframes animBackground{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.dot span{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    display: block;
+}
+.dot span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00ff0a;
+    border-radius: 50%;
+    pointer-events: none;
+    box-shadow: 0 0 10px #00ff0a,
+    0 0 10px #00ff0a,
+    0 0 10px #00ff0a,
+    0 0 10px #00ff0a,
+    0 0 10px #00ff0a,
+    0 0 10px #00ff0a;
+    transition: 1s;
+    transform: scale(0.1);
+}
+.dot span:hover::before{
+    transition:  0s;
+    transform: scale(1);
+}

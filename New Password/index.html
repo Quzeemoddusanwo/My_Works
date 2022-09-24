@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="file:///C:/Users/JIC%20Computer/Desktop/New%20folder/My%20Programming%20and%20Coding%20Documents/fontawesome-free-6.1.1-web/css/all.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create New password</h1>
+        <p>Your new password must be different <br> from previous used password.</p>
+
+        <div class="new-password">
+            <h3>New Password</h3>
+            <input type="password" class="new-password-input" placeholder="Create Password">
+            <i class="fa-solid fa-eye" onclick="passToggle()"></i>
+            <i class="fa-solid fa-eye-slash" onclick="passToggle()"></i>
+            <p> Must be at least 8 characters</p>
+        </div>
+
+        <div class="confirm-password">
+            <h3>Confirm Password</h3>
+            <input type="password" class="confirm-password-input" placeholder="Confirm password">
+        </div>
+        <p class="message">Both passwords must match.</p>
+        <button class="reset-button" onclick="passCheck()">CHECK</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

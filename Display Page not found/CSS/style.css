@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+}
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: #000000;
+    background-image: url(../bg.jpg);
+    font-size: 14px;
+    line-height: 1;
+}
+label{
+    cursor: pointer;
+}
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    color: rgb(209, 202, 202);
+}
+input,select,button,textarea{
+    margin: 0;
+    font-size: 100%;
+}
+html,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,input{
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.top-header:before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-repeat: repeat-x;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}

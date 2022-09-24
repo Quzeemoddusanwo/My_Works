@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Quzeem's School Quiz</h1>
+        <div id="results">
+            <h2>Your scored: Not yet attempted</h2>
+        </div>
+    </div>
+    <div class="body">
+        <form name="quiz" onsubmit="return onSubmit()">
+            <div class="question">
+                <h1>What is the best color in the rainbow</h1>
+                <input type="radio" name="q1" value="a">a. Red<br>
+                <input type="radio" name="q1" value="b">b. Blue<br>
+                <input type="radio" name="q1" value="c">c. Brown<br>
+                <input type="radio" name="q1" value="d">d. Pink<br>
+            </div>
+            <div class="question">
+                <h1>Who is the coolest person in the world?</h1>
+                <input type="radio" name="q2" value="a">a. Donald Trump<br>
+                <input type="radio" name="q2" value="b">b. Ted Cruiz<br>
+                <input type="radio" name="q2" value="c">c. Stephen Hawking<br>
+                <input type="radio" name="q2" value="d">d. Hillary Clinton<br>
+            </div>
+            <div class="question">
+                <h1>Who is smallest scientist living currently</h1>
+                <input type="radio" name="q3" value="a">a. Stephen Hawking<br>
+                <input type="radio" name="q3" value="b">b. Neil Degrasse Tyson<br>
+                <input type="radio" name="q3" value="c">c. Michio Kaku<br>
+                <input type="radio" name="q3" value="d">d. Alex Filipenko<br>
+            </div>
+            <div class="question">
+                <h1>How to write an IF statement for executing some code if &quot;i&quot; is NOT equal to 5?</h1>
+                <input type="radio" name="q4" value="a">a. if (i <> 5)<br>
+                <input type="radio" name="q4" value="b">b. if i <> 5<br>
+                <input type="radio" name="q4" value="c">c. if (i != 5)<br>
+                <input type="radio" name="q4" value="d">d. f i =! 5 then<br>
+            </div>
+            <div class="question">
+                <h1>How does a FOR loop start?</h1>
+                <input type="radio" name="q5" value="a">a. for (i = 0; i &lt;= 5)<br>
+                <input type="radio" name="q5" value="b">b. for (i = 0; i &lt;= 5; i++)<br>
+                <input type="radio" name="q5" value="c">c. for i = 1 to 5<br>
+                <input type="radio" name="q5" value="d">d. for (i &lt;= 5; i++)<br>
+            </div>
+            <div class="question">
+                <h1>What is the correct way to write a JavaScript array?</h1>
+                <input type="radio" name="q6" value="a">a. var colors = (1:&quot;red&quot;, 2:&quot;green&quot;, 3:&quot;blue&quot;)<br>
+                <input type="radio" name="q6" value="b">b. var colors = [&quot;red&quot;, &quot;green&quot;, &quot;blue&quot;]e<br>
+                <input type="radio" name="q6" value="c">c. var colors = 1 = (&quot;red&quot;), 2 = (&quot;green&quot;), 3 = (&quot;blue&quot;)<br>
+                <input type="radio" name="q6" value="d">d. var colors = &quot;red&quot;, &quot;green&quot;, &quot;blue&quot;<br>                
+            </div>
+            <button type="submit">Submit Test</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

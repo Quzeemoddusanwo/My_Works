@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Form Page</title>
+  
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>FORM</h1>
+  <div class="container">
+    <form action="action_page.html" method="post" enctype="multipart/form-data">
+      <label for="fname">First name</label><br>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name"><br><br>
+      
+      <label for="lname">Last name</label><br>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name"><br><br>
+      
+      <label for="pwd">Password</label><br>
+      <input type="text" id="pwd" name="password" placeholder="input password"><br><br>
+      
+      <label for="email">Email</label><br>
+      <input type="text" id="email" name="email" placeholder="input your email address"><br><br>
+      
+      <label for="country">Country</label><br>
+      <input type="text" list="country" id="opt" />
+      <datalist id="country">
+        <option value="England"/>
+        <option value="Germany"/>
+        <option value="Nigeria"/>
+      </datalist><br><br>
+      
+      <button>Submit</button><br>
+    </form>
+  </div>
+</body>
+</html>

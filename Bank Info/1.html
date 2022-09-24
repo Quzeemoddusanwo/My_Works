@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br >
+    <center>
+  <a style="font-size:30px; text-decoration:underline;" href="https://javascript-html-5.blogspot.com/2020/04/bank-ifsc-code-bank-detail-finder-using.html" target="_blank">Visit Blog</a>
+</center>
+
+    <br>
+    <div class="row">
+        <div id="form-content" class="center-align">
+            <form class="col s12" onsubmit="submitCode()">
+                <div class="row">
+                    <div class="col s12">
+                        <h2 class="teal-text">Find Bank Detail</h2>
+                    </div>
+                    <div class="col m2"></div>
+                    <div class="input-field col m6 s12">
+                        <i class="material-icons prefix">account_balance</i>
+                        <input id="ifsc_code" type="text" class="validate" maxlength="11" minlength="11" required autofocus>
+                        <label for="ifsc_code">BANK IFSC CODE</label>
+                    </div>
+                    <div class="input-field col m2 s12 ">
+                        <button class="btn">Search</button>
+                    </div>
+                    <div class="col s2"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div id="bank" class="center-align"></div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>

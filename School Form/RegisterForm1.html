@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Registeration Form</h1>
+    <div class="container"> 
+    <form name="myForm" action="action_page.html" onsubmit="return validateForm()" method="post">
+      
+      <label for="fname">Full Name</label>
+      <input type="text" id="Fname" name="fullname" placeholder="Enter Full Name">
+
+      <label for="mnumber">Matric Number</label>
+      <input type="number" id="Mname" name="number" placeholder="Enter Matric No">
+
+      <label for="email">Email Address</label>
+      <input type="email" id="Ename" name="email_address" placeholder="Enter Email Address">
+
+      <label for="school">School</label>
+      <input type="text" id="school" name="school" placeholder="Enter school of department">
+
+      <label for="email">Programme</label>
+      <input type="text" id="Ename" name="programme" placeholder="Enter the programme">
+
+      <label for="level">Level</label>
+      <input type="text" id="level" name="level" placeholder="Enter your level">
+
+      <label for="email">Session</label>
+      <input type="text" id="session" name="session" placeholder="Enter the year(2019/2022)">
+
+      <label for="semester">Semester</label>
+      <input type="text" id="semester" name="semester" placeholder="Enter your Semester">
+
+       <input type="submit" value="Submit">
+       <p>Already have an account? <a href="file:///C:/Users/JIC%20Computer/Desktop/Login%20page/login.html">Login here</a></p>
+    </form>
+    <small>&copy; Technical Quzeem</small>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+*{
+    width: 100%;
+    font-family: fantasy;
+    margin: 0;
+}
+.card{
+    width: 450px;
+    height: 600px;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 500px;
+    margin-top: 30px;
+    background: rgb(26, 46, 133);
+    
+}
+.card-title{
+    width: 350px;
+    height: 170px;
+    margin-left: 50px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(53, 144, 218);
+}
+.card-title h2{
+    font-size: 30px;
+    text-align: center;
+}
+.card-title input{
+    width: 250px;
+    height: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+.card-title1{
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(53, 144, 218);
+}
+.card-title1 h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.card-title1 select{
+    width: 100px;
+    border-radius: 5px 5px 5px 5px;
+}
+.card-title1 input{
+    width: 50px;
+}
+.card-title1 textarea{
+    width: 320px;
+    height: 100px;
+    margin-left: 12px;
+    border-radius: 10px 10px 10px 10px;
+}
+.card-title1 button{
+    width: 150px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 5px 5px 5px 5px;
+}

@@ -1,0 +1,114 @@
+*{
+    width: 100%;
+    font-family: fantasy;
+    margin: 0;
+}
+body{
+    align-items: center;
+}
+.card{
+    width: 900px;
+    height: 700px;
+    border: 2px solid rgb(255, 255, 255);
+    margin-left: 350px;
+    margin-bottom: 10px;
+    background: white;
+    
+}
+.card-title{
+    width: 700px;
+    height: 180px;
+    margin-left: 70px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgb(255, 247, 247);
+}
+.card-title h2{
+    font-size: 25px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: rgb(6, 247, 18);
+}
+label{
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-title input{
+    margin-top: -10px;
+    margin-left: 30px;
+    width: 500px;
+    height: 20px;
+    border: 2px solid rgb(4, 255, 4);
+}
+.card-title1{
+    width: 700px;
+    height: 420px;
+    margin-left: 70px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: rgb(255, 247, 247);
+}
+.card-title1 h2{
+    font-size: 25px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: rgb(6, 247, 18);
+}
+.card-title1 select{
+    width: 100px;
+}
+.card-title1 input{
+    width: 50px;
+}
+.card-title1 textarea{
+    width: 500px;
+    height: 100px;
+    border: 2px solid rgb(6, 252, 6);
+    border-radius: 10px;
+}
+.card-title1 button{
+    width: 150px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 2px;
+}
+h4{
+    margin: 10px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: bold;  
+}
+.card-title1 select{
+    margin-left: 100px;
+    width: 350px;
+    height: 25px;
+    border: 2px solid rgb(4, 255, 4);
+}
+.radio input{
+    margin-left: 40px;
+    color: rgb(4, 255, 4);
+    border: 2px solid rgb(4, 255, 4);
+}
+.radio label{
+    color: rgb(4, 255, 4);
+    margin: 5px;
+    padding: 10px;
+}
+.radio textarea{
+    margin-left: 15px;
+}
+.area label{
+    margin-bottom: 0px;
+    margin: 20px;
+    margin-left: -15px;
+}
+.area button{
+    margin-left: 480px;
+    width: 200px;
+    background-color: rgb(4, 255, 4);
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}

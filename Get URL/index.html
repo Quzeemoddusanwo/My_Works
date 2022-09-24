@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Get the current URL of the Webpage</h2>
+    <p id="url"></p>
+    <button onclick="getCurrentUrl()">Get Current URL</button>
+    <script>
+        function getCurrentUrl(){
+            document.getElementById("url").innerHTML = 
+            "URL of Current Page is : " + window.location.href;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 220px;
+    height: 450px;
+    margin: auto;
+    border: 3px solid rgb(49,49,49);
+    margin-top: 50px;
+    border-radius: 35px;
+    background: linear-gradient(hsl(212, 70%, 82%) 0%,#7fb3eb 100%);
+    box-shadow: 0px 2px 3px -1px grey;
+    position: relative;
+}
+.container::before{
+    content: "";
+    width: 2px;
+    height: 60px;
+    background-color: #35353a;
+    position: absolute;
+    top: 32%;
+    left: -6px;
+    box-shadow: 0px 0px 4px #93a9c9;
+    border-radius: 20px;
+}
+.container::after{
+    content: "";
+    width: 2px;
+    height: 60px;
+    background-color: #35353a;
+    position: absolute;
+    top: 31%;
+    left: -6px;
+    box-shadow: 0px 0px 4px #93a9c9;
+    border-radius: 20px;
+}
+.camera-bump{
+    width: 116px;
+    height: 118px;
+    border-radius: 30px;
+    background: linear-gradient(hsl(228, 9%, 55%) 0%,hsl(199, 55%, 78%) 100%);
+    position: relative;
+    top: 10px;
+    box-shadow: 0px 1px 1px 0.5px grey;
+    left: 9px;
+    border: 2px solid #96abbf;
+    text-align: center;
+}
+.camera{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(28,28,28);
+    border: 4px solid #aecbea;
+    box-shadow: 0px 4px 3px rgb(105,103,103);
+}
+.can-one{
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+.can-two{
+    position: absolute;
+    bottom: 6px;
+    left: 8px;
+}
+.can-three{
+    position: absolute;
+    right: 8px;
+    top: 33px;
+}
+.can-shadow{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    border-radius: 100%;
+    top: 8px;
+    right: 8.2px;
+    background: radial-gradient(#3d77a2 30%, #11203a 15%);
+}
+.sensor{
+    width: 17px;
+    height: 17px;
+    background-color: rgb(28,28,28);
+    border-radius: 100px;
+    bottom: 8px;
+    right: 23px;
+    box-shadow: 1px 3px 5px #5a5a5a;
+    position: absolute;
+}
+.min-sensor{
+    width: 3px;
+    height: 4px;
+    background-color: rgb(28,28,28);
+    border-radius: 100%;
+    position: absolute;
+    bottom: 21px;
+    right: 9px;
+}
+.flash{
+    width: 17px;
+    height: 17px;
+    background-color: rgb(28,28,28);
+    border-radius: 100px;
+    position: absolute;
+    top: 8px;
+    right: 23px;
+    border: 2px solid #cfc4bd;
+    background: radial-gradient(#f5e3d5 30%, #fff2ed 15%);
+    box-shadow: 0px 1px 1px 1px grey;
+}
+.logo{
+    width: 60px;
+    position: absolute;
+    margin-top: 174px;
+    margin-left: 12px;
+    opacity: 0.8;
+}

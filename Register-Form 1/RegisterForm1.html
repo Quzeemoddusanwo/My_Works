@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Registeration Form</h1>
+    <div class="container"> 
+    <form name="myForm" action="action_page.html" onsubmit="return validateForm()" method="post">
+      
+        <label for="fname">First Name</label>
+      <input type="text" id="Fname" name="firstname" placeholder="Enter First Name">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="Lname" name="lastname" placeholder="Enter Last Name">
+
+      <label>Gender</label>
+      <input type="radio" id="male" value="male" name="gender">
+      <label for="male">Male</label>
+      <input type="radio" value="female" id="female" name="gender">
+      <label for="female">Female</label><br>
+
+      <label for="country">Country</label>
+      <select name="country" id="country">
+          <option value="usa">USA</option>
+          <option value="india">India</option>
+          <option value="japan">Japan</option>
+          <option value="nigeria">Nigeria</option>
+          <option value="china">China</option>
+          <option value="Turkey">Turkey</option>
+          <option value="British">British</option>
+       </select>
+       
+       <input type="submit" value="Submit">
+       <p>Already have an account? <a href="file:///C:/Users/JIC%20Computer/Desktop/Login%20page/login.html">Login here</a></p>
+    </form>
+    <small>&copy; Technical Quzeem</small>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
